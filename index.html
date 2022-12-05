@@ -4,11 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <title>Nancy Rana</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- icon CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    
 </head>
 <body>
-    <div>
-        <h1>hello this is Nancy</h1>
-    </div>
+        <!--============ Navigation bar ===========================-->
+
+        <header>
+            <!-- logo -->
+            <a href="#" class="logo"> Nancy Rana</a>
+            <!-- button for responsive device -->
+            <div class="bx bx-menu" id="menu-icon"></div>
+            
+            <!-- menu items -->
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myskill">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="">Resume</a></li>
+                    <!-- dark mode button -->
+                    <div class="bx bx-moon" id="darkmode"></div>
+                </ul>
+        </header>
+
+                <!--============== Home section=================== -->
+            <section class="home">
+                <div class="social">
+                    <a href="https://github.com/Nancy8570" target="_blank"> <i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nancy-rana-41ba541a4/" target="_blank"> <i class="bx bxl-linkedin"></i></a>
+                </div>
+                <!-- home image -->
+                <div class="home-img">
+                    <img src="./images/WhatsApp Image 2022-12-05 at 8.23.39 PM.jpeg" alt="">
+                </div> 
+                <!-- home content -->
+                <div class="home-text">
+                    <span>Hello I'm</span>
+                    <h1>Nancy Rana</h1>
+                    <h2>Backend Developer</h2>
+                    <p>Focused on building fast and scalable <br> Backend code to build quality products.</p>
+                    <!-- contact button -->
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </section>
+            
+            <!-- ============About section====================== -->
+            <section class="about" id="about">
+                <!-- heading -->
+                <div class="heading">
+                <h2>About Me</h2>
+                <span>Introduction</span>
+                </div>
+                <!-- about content -->
+
+                <div class="about-container">
+
+                        <!-- text -->
+                        <div class="about-text">
+                            <p>
+                                An Ambitious, Java-Backend Developer with specialization 
+                                in Core Java, Springboot. Capable of writing Production-ready
+                                Backend code. Self-Motived with a keen interest to build quality 
+                                User-Friendly products. Strongly Interested in working in a Challenging 
+                                environment with a problem-solving approach.
+                            </p>
+                            <div class="about-num">
+                               <div class="about-num-data">
+                                <span class="info-title">1200+ <br> </span>
+                                <span class="info-details">hours of coding <br> experience </span>
+                               </div>
+                               <div class="about-num-data">
+                                <span class="info-title">10+ <br> </span>
+                                <span class="info-details">Completed <br> Projects</span>
+                               </div>
+                            </div>
+                           
+                            <!-- btn -->
+                            <div class="about-btn">
+                            <a href="" class="btn">Download Cv</a>
+                        </div>
+                        </div>
+
+                        <div class="information">
+                            <!-- box1 -->
+                            <div class="info-box">
+                                <i class="bx bxs-user"></i>
+                                <span>Nancy Rana</span>
+                            </div>
+                            <!-- box2 -->
+                            <div class="info-box">
+                                <i class="bx bxs-phone"></i>
+                                <span><a href="tel:+918570984471"> +91 8570984471</a></span>
+                            </div>
+                            <!-- box3 -->
+                            <div class="info-box">
+                                <i class="bx bxs-envelope"></i>
+                                <span> <a href="mailto: rananancy91@gmail.com"> rananancy91@gmail.com</a></span>
+                            </div>
+                            <!-- box 4 -->
+                            <div class="info-box">
+                                <i class="bx bxs-map"></i>
+                                <span> Sonipat, Haryana</span>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
 </body>
 </html>

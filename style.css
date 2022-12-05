@@ -1,0 +1,220 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    font-family: "poppins", sans-serif;
+}
+
+:root{
+    --main-color: #033a80;
+    --bg-color:#fff;
+    --text-color: #0f0c27;
+    --hover:hsl(260, 100%, 51%);
+
+    --big-font: 3.2rem;
+    --medium-font:1.8rem;
+    --p-font: 0.941rem;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.heading{
+    text-align: center;
+    
+}
+.heading h2{
+    font-size: 30px;
+}
+.heading span{
+    font-size: var(--p-font);
+    color: rgb(2,166,70);
+}
+
+/* for dark mode */
+body.active{
+    --text-color:#fff;
+    --bg-color:#0f0c27;
+}
+
+section{
+    padding: 50px 10%;
+}
+
+*::selection{
+    color: var(--bg-color);
+    background-color: var(--main-color);
+}
+
+/* ==================================== Navbar =========================*/
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-color);
+    padding: 13px 10%;
+    transition: 0.2s;
+    box-shadow: -3px -3px  7px #ffffff73,
+                2px 2px 5px rgba(94, 104 , 121, 0.288);
+}
+.logo{
+    font-size: 1.61rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.navbar a:hover{
+    color: var(--hover);
+}
+
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+#darkmode{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* home section */
+.home{
+    position: relative;
+    width:100%;
+    /* min-height:  90vh; */
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+.home-img{
+    order: 3;
+}
+.home-img img{
+    width: 70%;
+    border-radius: 10%;
+}
+.home-text span{
+    font-size: var(--medium-font);
+    font-weight:500;
+}
+.home-text h1{
+    font-size: var(--big-font);
+}
+.home-text h2{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.home-text p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin: 0.7rem 0 1rem;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.social a{
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: var(--text-color);
+}
+
+/* hover  */
+.social a :hover{
+    color: var(--hover);
+}
+.btn{
+    display:inline-block;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background:var(--main-color);
+    color: #fff;
+    padding: 0.7rem 1.3rem;
+    border-radius:0.5rem ;
+}
+.btn:hover{
+    background: var(--hover);
+}
+.about-btn{
+    width: fit-content;
+    margin: auto;
+}
+
+/* ====================About Section============================ */
+
+
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.about-text{
+    display: grid;
+    gap: 1rem;
+
+}
+.about-text p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    text-align: center;
+}
+.info-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: hsl(var(--hue-color), 8%, 15%);
+}
+.about-num{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.information{
+    width: fit-content;
+    margin: auto;
+    height: 100%;
+    /* margin: 1rem 0 1.4rem; */
+}
+.information .info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.4rem;
+}
+.info-box a{
+    color: var(--p-font);
+}
+.information .info-box .bx{
+    font-size: 22px;
+}
+.information .info-box span{
+     font-weight: 400;
+     margin-left: 1rem;
+}
