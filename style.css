@@ -405,7 +405,7 @@ textarea::placeholder {
 .contact-button{
     width: 160px;
     cursor: pointer;
-    background: #2768d9;
+    background: #7e4d63;
     color: #fff;
     justify-content: center;
     text-transform: uppercase;
@@ -430,7 +430,7 @@ textarea::placeholder {
     margin-bottom: 1.6rem;
 }
 .footer-social a i{
-    color: rgb(10, 26, 208);
+    color: #0F0C27;
     font-size: 25px;
     margin-left: 10px;
     text-align: center;
@@ -439,6 +439,10 @@ textarea::placeholder {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+}
+.footer-social a i:hover{
+    color: var(--hover);   
+
 }
 
 /* ========================== make it responsive ========================== */
