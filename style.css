@@ -25,9 +25,10 @@
 }
 
 body{
-    background: var(--bg-color);
+    background: antiquewhite;
+    /* background: var(--bg-color); */
     color: var(--text-color);
-    background-color:antiquewhite;
+    /* background-color:antiquewhite; */
 }
 
 .heading{
@@ -45,7 +46,8 @@ body{
 /* for dark mode */
 body.active{
     --text-color:#fff;
-    --bg-color:#0f0c27;
+    /* --bg-color:#0f0c27; */
+    background-color: #0F0C27;
 }
 
 section{
