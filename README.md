@@ -23,7 +23,7 @@
 
 
 #### Website Presentation :
-![Hemant Acharya]()
+
 
 
 
