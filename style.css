@@ -25,7 +25,7 @@
 }
 
 body{
-    background: antiquewhite;
+    /* background: antiquewhite; */
     /* background: var(--bg-color); */
     color: var(--text-color);
     /* background-color:antiquewhite; */
@@ -123,9 +123,8 @@ header{
 
 }
 .home-img img{
-    width: 70%;
-    border-radius: 30% 70% 52% 48% / 30% 30% 70% 70% ;
-    border-radius: 45% 55% 67% 33% / 57% 63% 37% 43% ;
+    width: 50%;
+    
     /* border-radius: 82% 18% 48% 52% / 45% 44% 56% 55% ; */
     /* border-radius: 30% 70% 29% 71% / 50% 50% 50% 50% ; */
 }
@@ -330,10 +329,12 @@ header{
 .project-btn{
     display: flex;
     gap: 2rem;
+
 }
 .project-btn a{
     display:inline-block;
-    background:var(--main-color);
+    /* background:var(--main-color); */
+    background-color: #7e4d63;
     color: #fff;
     padding: 0.7rem 1.3rem;
     border-radius:0.5rem ;
