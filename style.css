@@ -125,8 +125,6 @@ header{
 .home-img img{
     width: 50%;
     
-    /* border-radius: 82% 18% 48% 52% / 45% 44% 56% 55% ; */
-    /* border-radius: 30% 70% 29% 71% / 50% 50% 50% 50% ; */
 }
 .home-text span{
     font-size: var(--medium-font);
