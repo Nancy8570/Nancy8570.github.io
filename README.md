@@ -24,6 +24,12 @@
 
 #### Website Presentation :
 
+![Nancy Rana](./images/portfolio1.PNG)
+![Nancy Rana](./images/portfolio2.PNG)
+![Nancy Rana](./images/portfolio3.PNG)
+
+
+
 
 
 
