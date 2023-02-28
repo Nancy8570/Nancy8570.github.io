@@ -251,8 +251,8 @@ header{
     width:420px;
 }
 .skills-box{
-    padding: 20px;
-    width: 260px;
+    padding: 10px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -307,11 +307,14 @@ header{
 .project-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 1.5rem;
+    gap: 2rem;
     margin-top: 2rem;
 }
 .project-box img{
     width: 100%;
+    height: 250px;
+    object-fit: contain;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 0.5rem;
 }
 .project-data p{
